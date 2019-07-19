@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -20,8 +20,29 @@
 
   <div class="container home">
 
+      <header>
+          <div class = "navContainer">
+            <div class = "navText">
+              <h1>SpaceWalkers</h1>
+            </div>
+            <div class = "navLinks">
+              <nav>
+                <a href = "#home"><b>Home</b></a>
+                <a href = "#about"><b>About Us</b></a>
+                <a href = "#blog"><b>Blog</b></a>
+                <a href = "#contact"><b>Contact</b></a>
+                <a href = "#signin"><b>Sign In</b></a>
+              </nav>
+            </div>
+          </div>
+        </header>
+
     <header class="intro">
        <!-- image code here -->
+
+       <div class = "introImg">
+         <img src = "img/main-header.png">
+       </div>
 
       <h2>Lift Off</h2>
     
@@ -29,9 +50,19 @@
     </header>
 
     <section class="space-images">
-        <img src="img/blast.png" class="blast" alt="Rocket blasting off">
-        <img src="img/sky.png" class="sky" alt="Space sky image">
-        <img src="img/launch.png" class="launch" alt="Launching rocket">
+
+      <div class = "div-space-images">
+        <div class = "imgBlast">
+          <img src="img/blast.png" class="blast" alt="Rocket blasting off">
+        </div>
+        <div class = "imgSky">
+          <img src="img/sky.png" class="sky" alt="Space sky image">
+        </div>
+        <div class = "imgLaunch">
+          <img src="img/launch.png" class="launch" alt="Launching rocket">
+        </div>
+      </div>
+
     </section>
    
     <section class="visit-planets">
@@ -52,7 +83,7 @@
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
         <div class="btn">
-          Sign Up
+          <button><b>Sign Up</b></button>
         </div>
       </div>
       
